@@ -1,5 +1,5 @@
-#include "STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f411xe.s"
-#include "STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
+#include "CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f411xe.s"
+#include "CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
 
 void delay(uint32_t ms) {
     uint32_t i, j;
